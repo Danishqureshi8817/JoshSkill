@@ -1,0 +1,8 @@
+export const Logo = require('../assets/images/Splash.png')
+export const GoogleIcon = require('../assets/images/google.png')
+export const ChatSkin = require('../assets/images/chatSkin.jpg')
+export const HIcon = require('../assets/images/HIcon.png')
+export const Lesson1 = require('../assets/images/lesson1.jpeg')
+export const AvtarAudio = require('../assets/avtr.png')
+export const RBBanner = require('../assets/images/RBBanner.png')
+export const BlueTick = require('../assets/images/BlueTick.png')
