@@ -33,7 +33,7 @@ const Lesson = ({data}) => {
 
     return () => {
       TrackPlayer.pause()
-      TrackPlayer.remove()
+    //   TrackPlayer.remove()
       };
     }, [])
     

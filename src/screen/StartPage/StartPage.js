@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View,Image,TouchableOpacity,ScrollView } from 'react-native'
+import { StyleSheet, Text, View,Image,TouchableOpacity,ScrollView, Button } from 'react-native'
 import React from 'react'
 import { Logo } from '../../constants/imagePath'
 import { responsiveHeight,responsiveFontSize,responsiveWidth } from 'react-native-responsive-dimensions'
@@ -69,6 +69,9 @@ const StartPage = ({navigation}) => {
         <Text style={styles.footerSubMainText2}>josh Skills' Privacy Policy</Text>
         </TouchableOpacity>
         </View>
+
+
+
         
     </View>
 

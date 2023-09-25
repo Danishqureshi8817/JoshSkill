@@ -1,4 +1,4 @@
-import { Image, StyleSheet, Text, View,TouchableOpacity,TouchableHighlight } from 'react-native'
+import { Image, StyleSheet, Text, View,TouchableOpacity,TouchableHighlight,Button } from 'react-native'
 import React,{useLayoutEffect,useState} from 'react'
 import colors from '../../styles/colors'
 import EIcon from 'react-native-vector-icons/Entypo';
@@ -8,6 +8,8 @@ import styles  from './style'
 import navigationStrings from '../../constants/navigationStrings';
 import TrailTimer from '../../components/TrailTimer';
 import CompletePay from '../CompletePay/CompletePay';
+
+
 
 const Home = ({navigation}) => {
 
@@ -84,7 +86,12 @@ const [showEnd, setShowEnd] = useState(false)
         <Text style={styles.buttomText} >Buy English Course</Text>
     </TouchableOpacity>
 
+    {/* <Button title='sound play' onPress={()=>{}} /> */}
 
+    {/* <Button
+      title={"Stop"}
+      onPress={stop} 
+    /> */}
     </View>
   )
 }
